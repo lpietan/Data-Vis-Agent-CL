@@ -62,19 +62,38 @@ https://allisonhorst.github.io/palmerpenguins/. doi:10.5281/zenodo.3960218.
 # Results and Examples
 The following are examples of prompts that have a yielded results that replicate figures that are published with the Palmer Penguins dataset on their GitHub page (https://github.com/allisonhorst/palmerpenguins). 
 
+
 Prompt: "Produce a figure that plots flipper length on the X and bill length on the Y and have each species be a different color and shape for the data points with the key in the bottom right corner. Include a best fit line for each species."
 
-Agent Figure      Published Figure
+Agent Figure
+
+<img src="figures/README_Agent_FlipperLength_BillLength.png" width="75%" style="display: block; margin: auto;" />
+
+Published Figure
+
+<img src="figures/README-flipper-bill-1.png" width="75%" style="display: block; margin: auto;" /> 
 
 
 Prompt: "Produce a figure that plots flipper length on the X and body mass on the Y and have each species be a different color and shape for the data points with the key in the top left corner."
 
-Agent Figure      Published Figure
+Agent Figure
+
+<img src="figures/README_Agent_FlipperLength_BodyMass.png" width="75%" style="display: block; margin: auto;" />
+
+Published Figure
+
+<img src="figures/README-mass-flipper-1.png" width="75%" style="display: block; margin: auto;" />
 
 
 Prompt: "Plot overlapping histograms of flipper lengths for each species using different colors and transparency in case of overlap. Use a bin size of 2 mm. As an example for values to include in bins, I want values = 190 to be included in the 188-190 bin.  The Y axis should be Frequency. Each species should be plotted with a separate label to allow for a legend. Place the legend to the right side of the plot. Bin values should include the upper edge."
 
-Agent Figure      Published Figure
+Agent Figure
+
+<img src="figures/README_Agent_FlipperHist.png" width="75%" style="display: block; margin: auto;" />
+
+Published Figure
+
+<img src="figures/README-flipper-hist-1.png" width="75%" style="display: block; margin: auto;" />
 
 
 # Details
