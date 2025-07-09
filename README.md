@@ -74,7 +74,7 @@ Published Figure
 <img src="figures/README-flipper-bill-1.png" width="75%" style="display: block; margin: auto;" /> 
 
 
-Prompt: "Produce a figure that plots flipper length on the X and body mass on the Y and have each species be a different color and shape for the data points with the key in the top left corner."
+Prompt: "Produce a figure that plots flipper length on the X and body mass on the Y and have each species be a different color AND shape for the data points with the key in the top left corner."
 
 Agent Figure
 
